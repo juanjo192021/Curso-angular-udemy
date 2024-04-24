@@ -1,0 +1,19 @@
+#Personalizado
+*/Sección-06 ( Despliegues a producción )/02-bases-github
+*/Sección-07 ( GifsApp ) y sección-08 ( Image Loader )/03-gifs-app
+*/Sección-09 ( Country SPA ) y sección-10 ( Mejoras y funcionabilidades extra )/04-country-app
+*/Sección-11 ( PipesApp - PrimeNG ) y sección-12 ( Pipes personalizados )/05-pipes-app 
+*/Sección-14 ( Angular Material ) y sección-15 ( CRUD Heroes )/06-heroes-app 
+
+# Compiled output
+*/dist
+# Node
+*/node_modules
+
+*/.angular/cache
+.sass-cache/
+*/connect.lock
+*/coverage
+*/libpeerconnection.log
+testem.log
+*/typings
