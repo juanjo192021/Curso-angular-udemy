@@ -6,6 +6,7 @@ import { Hero } from '../../interfaces/hero.interface';
   templateUrl: './card.component.html',
   styles: ``
 })
+
 export class CardComponent implements OnInit{
 
   @Input()
