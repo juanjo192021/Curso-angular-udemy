@@ -1,0 +1,7 @@
+<h3 class="title-search mb-0">Buscar:</h3>
+<div class="d-flex flex-row align-items-center">
+  <input type="text" class="form-control my-3 me-4" placeholder="Buscar gifs" (keyup.enter)="searchTag()" #txtTagInput>
+  <button class="btn btn-primary text-white" (click)="searchTag()">
+    <img class="mx-auto d-block" src="assets/search.svg" height="25" width="25">
+  </button>
+</div>

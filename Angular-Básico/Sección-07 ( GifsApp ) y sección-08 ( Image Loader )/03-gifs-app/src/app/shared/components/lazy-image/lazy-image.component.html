@@ -1,0 +1,26 @@
+<div class="d-flex justify-content-center card-img-container">
+  <img
+    [src]="url"
+    [alt]="alt"
+    class="card-img-top animate__animated animate__fadeIn card-img"
+    (load)="onLoad()"
+    [ngStyle]="{display: hasLoaded ? '' : 'none'}"
+  >
+
+  <div *ngIf="!hasLoaded" class="d-flex flex-column  justify-content-evenly align-items-center h-100">
+    <img
+      src="assets/loader.svg"
+      height="80"
+      width="80"
+      class="mt-4"
+    >
+    <div class="d-flex flex-row align-items-center">
+      <p class="text-white my-0 mx-1">Cargando</p>
+      <img src="assets/three-dots.svg"
+        height="10"
+        width="20"
+        class="mt-2"
+      >
+    </div>
+  </div>
+</div>

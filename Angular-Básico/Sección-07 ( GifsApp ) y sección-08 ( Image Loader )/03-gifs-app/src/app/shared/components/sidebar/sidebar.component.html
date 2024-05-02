@@ -1,0 +1,14 @@
+<div class="border-right p-3" id="sidebar">
+
+  <h3 class="text-light px-2">GifApp</h3>
+  <hr class="text-white">
+
+  <div class="row justify-content-evenly px-0 mx-0">
+    <button
+      (click)="searchTag( tag )"
+      *ngFor="let tag of tags"
+      class="btn col-3 my-1 text-white"
+    >{{ tag | titlecase}}</button>
+  </div>
+
+</div>
