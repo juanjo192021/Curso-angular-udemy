@@ -8,7 +8,7 @@ const routes: Routes = [
     children: [
       { path: 'sign-up', component: RegisterPageComponent },
       { path: '**', redirectTo: 'sign-up' },
-    ],
+    ]
   }
 ];
 

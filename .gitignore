@@ -1,16 +1,3 @@
 #Personalizado
 */Proyectos web desplegados usando Angular
 */Sección-06 ( Despliegues a producción )/02-bases-github
-
-# Compiled output
-*/dist
-# Node
-*/node_modules
-
-*/.angular/cache
-.sass-cache/
-*/connect.lock
-*/coverage
-*/libpeerconnection.log
-testem.log
-*/typings

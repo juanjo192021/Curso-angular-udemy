@@ -2,7 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
   templateUrl: './switches-page.component.html',
-  styles: ``
+  styles: [
+  ]
 })
 export class SwitchesPageComponent {
 
