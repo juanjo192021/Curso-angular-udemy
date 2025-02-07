@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-heroes-list',
   templateUrl: './list.component.html',
+  standalone: false,
   styleUrl: './list.component.css'
 })
 export class ListComponent {
